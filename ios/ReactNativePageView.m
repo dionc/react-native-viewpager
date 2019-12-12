@@ -310,9 +310,9 @@
 
 - (UIPageControl *)createPageIndicator {
     UIPageControl *pageControl = [[UIPageControl alloc] init];
-    pageControl.tintColor = UIColor.blackColor;
-    pageControl.pageIndicatorTintColor = UIColor.whiteColor;
-    pageControl.currentPageIndicatorTintColor = UIColor.blackColor;
+    pageControl.tintColor = _currentPageIndicatorTintColor;
+    pageControl.pageIndicatorTintColor = _pageIndicatorTintColor;
+    pageControl.currentPageIndicatorTintColor = _currentPageIndicatorTintColor;
     [pageControl addTarget:self
                     action:@selector(pageControlValueChanged:)
           forControlEvents:UIControlEventValueChanged];
