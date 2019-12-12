@@ -136,6 +136,8 @@ const styles = StyleSheet.create({
 |`transitionStyle: TransitionStyle`|Use `scroll` or `curl` to change transition style (it does **not** work dynamically)|iOS
 |`showPageIndicator: boolean`|Shows the dots indicator at the bottom of the view|iOS
 |`overScrollMode: OverScollMode`|Used to override default value of overScroll mode. Can be `auto`, `always` or `never`. Defaults to `auto`|Android
+|`currentPageIndicatorTintColor: string`|A hexadecimal representation of the color for the active tab of the page indicator|iOS
+|`pageIndicatorTintColor: string`|A hexadecimal representation of the color for the inactive tabs of the page indicator|iOS
 
 ## Preview
 
