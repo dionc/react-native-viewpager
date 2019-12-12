@@ -100,6 +100,8 @@ export interface ViewPagerProps {
   orientation?: Orientation;
   transitionStyle?: TransitionStyle;
   showPageIndicator?: boolean;
+  currentPageIndicatorTintColor?: string,
+  pageIndicatorTintColor?: string,
   /**
    * Android only
    */
